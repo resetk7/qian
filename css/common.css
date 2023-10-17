@@ -1,0 +1,189 @@
+/* CSS初始化 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background-color: rgb(243,244,245);
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+ul{
+	list-style: none;
+}
+ /* 头部导航 */
+ .header{
+	 width: 100%;
+	 height:48px;
+	 line-height: 48px;
+ }
+  .header .leftnav{
+	 float: left;
+	 width: 120px;
+	 text-align: center;
+	 margin-left: 30px;
+ }
+ .header .leftnav a{
+	  color:black;
+ }
+ .header  .rightnav ul{
+	 float:right;
+	 margin-right: 130px;
+ }
+  .header .rightnav li{
+	float: left;
+	width: 140px;
+	text-align: center;
+ }
+  .header .rightnav li a{
+	 display: inline-block;
+	 width: 140px;
+	 color: black;
+ }
+
+
+
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 640px;
+	/* border: 1px solid orange; */
+	background-color: rgb(252,252,252);
+}
+.warpp{
+	width: 1250px;
+	height: 640px;
+	margin: 0 auto;
+}
+.foot_top{
+	width: 1250px;
+	height: 580px;
+	/* border: 1px solid plum; */
+}
+.icons{
+	width: 1250px;
+	height: 100px;
+	/* border: 1px solid gray; */
+}
+.icon {
+	width: 80px;
+	height: 85px;
+	position: relative;
+	top:24px;
+	left:-45px;
+}
+.icons li{
+	display: inline-block;
+	margin-left: 75px;
+}
+.icon p{
+	color: rgb(192,192,192);
+	font-size: 18px;
+	text-align: center;
+}
+/* 多个列表 */
+.foot_list{
+	width: 1250px;
+	height: 230px;
+	/* border: 1px solid red; */
+	/* display: inline-block; */
+}
+.list_menu{
+	width: 205px;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	margin-top: 20px;
+}
+.menu_more{
+	margin-bottom: 5px;
+}
+.list_menu dd{
+	margin-bottom: 5px;
+}
+.cir{
+	color: rgb(128,128,128);
+	font-size: 16px;
+}
+.cir a{
+	color: rgb(128,128,128);
+	font-size: 16px;
+}
+.long1{
+	width:1px;
+	height: 200px;
+	background-color: rgb(224,224,224);
+	margin-left: 180px;
+	margin-top: -130px;
+}
+.long2{
+	width:1px;
+	height: 200px;
+	background-color: rgb(224,224,224);
+	margin-left: 180px;
+	margin-top: -180px;
+}
+.long4{
+	width:1px;
+	height: 200px;
+	background-color: rgb(224,224,224);
+	margin-left: 180px;
+	margin-top: -80px;
+}
+.app_img img{
+	width:126px;
+	height: 126px;
+	margin-top: 8px;
+}
+.cir a:hover{
+	color:rgb(241,1,128);
+	transform: translateX(20px);
+}
+/* 关于我们 */
+.relas{
+	width:1250px;
+	height: 175px;
+}
+.rela{
+	width:1250px;
+	height: 40px;
+	background-color: rgb(215,35,126);
+}
+.rela li{
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 14px;
+	position: relative;
+	top:8px;
+	left: 180px;
+}
+.rela_me a{
+	color: white;
+}
+.rela_me span{
+	color: white;
+}
+.rela_me a:hover{
+	color: rgb(204,204,189);
+}
+
+.sma_conts{
+	width: 960px;
+	height: 90px;
+	text-align:center;
+	margin-left:100px;
+	/* border:1px solid orangered; */
+}
+.sma_cont{
+	font-size: 14px;
+	color: rgb(153,153,153);
+}
+.sma_cont a{
+	font-size: 14px;
+	color: rgb(128,128,128);
+}
+.sma_cont a:hover{
+	color:rgb(241,1,128);
+}

@@ -1,0 +1,422 @@
+/* CSS初始化 */
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+	line-height: 24px;
+}
+a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #333;
+}
+/* 头部区域 */
+.header {
+	width: 1903px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.f_photo{
+	width: 164px;
+	height: 108px;
+	position: absolute;
+	top: 0px;
+	left: 440px;
+}
+.s_photo {
+	width: 300px;
+	height: 120px;
+	position: absolute;
+	top: -20px;
+	right: 440px;
+	margin: 0 auto;
+}
+
+
+/* 主体区域 */
+.main {
+	width: 1903px;
+	height: 650px;
+	/* background-color: aquamarine; */
+	margin: 0 auto;
+	background-image: url(../img/background-image.jpg);
+	position: relative;
+}
+
+.main_content{
+	width: 1900px;
+	position: relative;
+	top: 56px;
+}
+/* 切换登录方式 */
+.c-tab-nav {
+	width: 360px;
+	position: absolute;
+	left: 1108px;
+	background-color: white;
+	border-bottom: 1px solid red;
+}
+.active{
+	color: #f10180;
+}
+.c-tab-nav-item{
+	display: inline-block;
+	width: 169px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;
+}
+.x_line{
+	margin-left: 7px;
+	color: #e0e0e0;
+}
+
+/* 扫码登录 */
+.box {
+	width: 360px;
+	height: 460px;
+	background-color: white;
+	position: absolute;
+	left: 1108px;
+	top: 50px;
+}
+
+/* 二维码盒子 */
+.p_border {
+	width: 45px;
+	height: 172px;
+	/* background-color: ; */
+	border: 1px solid #f0f0f0;
+	margin: 40px 106px;
+}
+.code {
+	width: 180px;
+	height: 180px;
+	transition: 2s;
+}
+.code.hover_code{
+	margin-left: -84px;
+}
+._picture{
+	background-position: 0px -104px;
+	width: 120px;
+	height: 192px;
+	/* display: none; */
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 1;
+	background-image: url(../img/icon.png);
+	opacity: 0;
+	transition: 2s;
+}
+/* 鼠标悬浮	 */
+._picture.hover_picture{
+	opacity: 1;
+	
+}
+/* 标语一 */
+.slogn_one {
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 228px;
+	left: 62px;
+}
+
+.small_icon {
+	background-image: url(../img/icon.png);
+	background-position: -605px -121px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: top;
+	top: 50px;
+	
+}
+.personal {
+	color: #f10180;
+}
+
+/* 标语二 */
+.slogn_two {
+	font-size: 12px;
+	line-height: 1.5;
+	display: block;
+	position: absolute;
+	top: 292px;
+	left: 18px;
+}
+
+.square {
+	margin-right: 3px;
+}
+
+.clause {
+	color: #1d94d1;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 1.5;
+	width: 270px;
+}
+
+.clause:hover {
+	color: #3cbdff;
+}
+
+.followings {
+	font-size: 12px;
+	margin: -5px -2px;
+}
+
+/* 底部盒子 */
+.bottom {
+	width: 360px;
+	height: 119px;
+	/* background-color: #1D94D1; */
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.bottom_line_one {
+	border-bottom: 1px solid #e0e0e0;
+}
+.wechat {
+	background-position: -580px -161px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	background-image: url(../img/icon.png);
+	bottom: -25px;
+	left: 160px;
+}
+.bottom_line_two {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/* 账户登录 */
+
+.box_other {
+	width: 360px;
+	height: 460px;
+	background-color: white;
+	position: absolute;
+	left: 1108px;
+	top: 50px;
+}
+
+/* 表单内容盒子 */
+.s_content {
+	width: 360px;
+	height: 351px;
+	color: #1D94D1;
+	position: relative;
+}
+.s_content>div {
+	margin: 27px 30px;
+}
+/* 用户名相关 */
+.f_box {
+	width: 300px;
+	height: 46px;
+	/* border: 1px solid red; */
+	border: 1px solid #ec5042;
+	display: block;
+}
+
+.f_text {
+	/* width: 300px;
+	height: 46px; */
+	border: 1px solid #ec5042;
+	padding-left: 40px;
+	width: 260px;
+	height: 46px;
+	line-height: 32px;
+	/* outline: none; */
+	border-style: none;
+	font-size: 14px;
+	position: absolute;
+}
+
+.f_icon {
+	background-image: url(../img/icon.png);
+	position: absolute;
+	top: 14px;
+	left: 39px;
+	z-index: 1;
+	background-position: -504px -221px;
+	width: 20px;
+	height: 20px;
+}
+/* 密码相关 */
+.s_box {
+	border: 1px solid #ec5042;
+	width: 300px;
+	height: 46px;
+	display: block;
+}
+.b_pw {
+	border: 1px solid #ec5042;
+	/* width: 300px;
+	height: 46px; */
+	font-size: 14px;
+	padding-left: 40px;
+	width: 260px;
+	height: 46px;
+	line-height: 41px;
+	/* outline: none; */
+	border-style: none;
+	position: absolute;
+}
+.s_icon {
+	background-image: url(../img/icon.png);
+	position: absolute;
+	top: 87px;
+	left: 39px;
+	z-index: 1;
+	background-position: -528px -221px;
+	width: 20px;
+	height: 20px
+}
+/* 其它相关 */
+.other_item {
+	width: 300px;
+	height: 19px;
+	/* 	background-color: #1D94D1; */
+}
+.check {
+	display: block;
+	position: absolute;
+	top: 148px;
+}
+.message_login {
+	font-size: 14px;
+	color: #333;
+	line-height: 14px;
+	margin-right: 155px;
+}
+.forget {
+	font-size: 14px;
+	color: #333;
+	line-height: 14px;
+}
+.message_login:hover {
+	color: #ec5042;
+}
+.forget:hover {
+	color: #ec5042;
+}
+
+
+/* 重复的标语  */
+.slogn_again {
+	font-size: 12px;
+	line-height: 1.5;
+	left: 0;
+}
+.s_followings {
+	font-size: 12px;
+}
+.red_login {
+	width: 298px;
+	height: 55px;
+	position: relative;
+	/* background-color: #f10180; */
+	/* border: 1px solid #f10180; */
+	bottom: -21px;
+	display: inline-block;
+}
+
+/* .but {
+	width: 300px;
+	background-color: #f10180;
+	border: 1px solid #f10180;
+} */
+
+.final_login {
+	display: inline-block;
+	width: 298px;
+	height: 55px;
+	color: #fff;
+	/* right: 150px; */
+	 background-color: #f10180; 
+	
+	/* position: absolute; */
+	font-size: 18px;
+	line-height: 55px;
+	/* left: 130px;
+	top: 18px; */
+}
+input:focus{
+	outline-style: none;
+}
+
+
+.bottom_again {
+    width: 360px;
+    height: 119px;
+    /* background-color: #1D94D1; */
+    position: absolute;
+    bottom: -80px;
+	left: 0px;
+}
+.wechat_again{
+    background-position: -580px -161px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    background-image: url(../img/icon.png);
+    bottom: -25px;
+    left: 160px;
+}
+.bottom_line_two_again{
+	    border-bottom: 1px solid #e0e0e0;
+}
+/* <!-- 清除浮动带来的影响	 --> */
+.clear{
+	height: 640px;
+}
+
+/* 底部板块 */
+
+.footer {
+	/* position: fixed; */
+	/* top: 750px; */
+	/* left: 600px; */	
+	text-align: center;
+	margin-left: 0px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 12px;
+	/* background-color: #1D94D1; */
+}
+.footer span{
+	color: #666;
+	margin-right: 480px;
+}
+/* .square_again {
+	left: 15px;
+	position: absolute;
+	top: 199px;
+}
+.clause_again {
+	color: #1d94d1;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 1.5;
+	width: 181px;
+	
+}
+.clause_again:hover {
+	color: #3cbdff;
+} */
+

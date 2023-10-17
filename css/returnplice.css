@@ -1,0 +1,89 @@
+ /* 头部导航 */
+ .header{
+	 background-color:#51948c;
+ }
+  .header .leftnav{
+	 background-color:#3e726b;
+ }
+ .header .rightnav li a:hover{
+	 background-color:#3e726b;
+}
+
+/* 内容板块 */
+#main{
+    width: 100%;
+    height: 2182px;
+    /* background-color: darkgreen; */
+    background: url(../img/banner_bg.jpg)no-repeat;
+    background-position: center top;
+}
+.main{
+    width: 1000px;
+    height: 2182px;
+    /* 设置了他的话section就不能居中 */
+    /* overflow: hidden; */
+    /* background: url(../img/banner_bg.jpg); */
+    font-family: "微软雅黑";
+    margin: 0 auto;
+    /* background-color: darkkhaki; */
+}
+.warpper{
+    width: 1000px;
+    margin: 0 auto;
+}
+.wapper2 img{
+    padding-bottom: 20px;
+}
+.wapper2{
+    margin-top: 75px;
+    overflow: hidden;
+    padding-left: 44px;
+    width: 925px;
+    height: 1145.2px;
+    font-size: 14px;
+    color: #333333;
+}
+.hover{
+    color: #3466aa;
+}
+.wapper2 a:hover{
+    color: #f00581;
+}
+.wapper2 span {
+        background-image: url(../img/radius.png);
+        width: 22px;
+        height: 21px;
+        float: left;
+        font-size: 15px;
+        margin-right: 10px;
+        font-weight: bold;
+        color: #0ca797;
+        font-style: italic;
+        font-family: arial;
+        vertical-align: middle;
+        line-height: 22px;
+        text-align: center;
+}
+.wapper2 p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 30px;
+    font-weight: normal;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.wapper2 b{
+    width: 100%;
+    float: left;
+    line-height: 26px;
+    font-weight: normal;
+}
+.lang{
+    margin: 0 auto;
+}
+
+/* 底部板块 */
+.rela{
+	 background-color:#51948c;
+}
+

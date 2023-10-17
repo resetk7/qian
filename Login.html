@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>仿唯品会网站登录</title>
+		<link rel="stylesheet" type="text/css" href="./css/Login.css" />
+	</head>
+	<body>
+		<!-- 头部区域开始 -->
+		<div class="header">
+			<a href="https://www.vip.com/"><img class="f_photo" src="./img/logo_one.png"></a>
+			<div id="logo1">
+				<img class="s_photo" src="./img/image_right.png">
+			</div>
+		</div>
+		<!-- 头部区域结束 -->
+
+		<!-- 主体区域开始 -->
+		<div class="main">
+			<div class="main_content">
+				<!-- 切换登录方式 -->
+				<div class="c-tab-nav ">
+					<div class="c-tab-nav-item active" id="login_code">扫码登录</div>
+					<a class="x_line">|</a>
+					<div class="c-tab-nav-item " id="login_account">账户登录</div>
+				</div>
+				<!-- 扫码登录 -->
+				<div class="box" id="box" style="display: block;">
+					<!-- 二维码盒子 -->
+					<div class="p_border" id="p_border">
+						<img class="code" id="code" src="./img/code.png" />
+						<div class="_picture" id="_picture" />
+					</div>
+					<!-- 标语一 -->
+					<div class="slogn_one">
+						<p class="scan">
+						<div class="small_icon"></div>
+						<span>打开</span>
+						<span class="personal">唯品会APP-个人中心</span>
+						<span>,</span>
+						<span>扫一扫登录</span>
+						</p>
+					</div>
+
+					<!-- 标语二 -->
+					<div class="slogn_two">
+						<p>
+							<input type="checkbox" checked class="square" />
+							<span class="followings">我已阅读并接受以下条款：</span>
+							<a class="clause" href="">《唯品会服务条款》《唯品会隐私政策》《唯品支付用户服务协议》</a>
+						</p>
+					</div>
+
+					<!-- 底部盒子 -->
+					<div class="bottom">
+						<a class="wechat"></a>
+						<p class="bottom_line_two"></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- 账户登录 -->
+			<div class="box_other" id="box_other" style="display: none;">
+				<!-- 表单内容盒子 -->
+				<div class="s_content">
+					<!-- 用户名相关 -->
+					<div class="f_box">
+						<input type="text" placeholder="用户名 suser" class="f_text" id="uname">
+						<span class="f_icon"></span>
+					</div>
+					<!-- 密码相关 -->
+					<div class="s_box">
+						<input type="password" placeholder="密码 123456" class="b_pw" id="word">
+						<p class="s_icon"></p>
+					</div>
+					<!-- 其它相关 -->
+					<div class="other_item">
+						<div class="check">
+							<a class="message_login" href="">短信验证登录</a>
+							<a class="forget" href="">忘记密码</a>
+						</div>
+					</div>
+
+					<!-- 重复的标语 -->
+					<div class="slogn_again">
+						<input type="checkbox" checked class="square_again" />
+						<p>
+							<span class="s_followings">我已阅读并接受以下条款：</span>
+							<a class="clause_again" href="">《唯品会服务条款》《唯品会隐私政策》《唯品支付用户服务协议》</a>
+						</p>
+						<div class="red_login">
+							<button type="submit" class="but">
+								<span class="final_login" id="login">登录</span>
+								<!-- <span class="final_login" id="login" onclick="login();">登录</span> -->
+							</button>
+						</div>
+						<div class="bottom_again">
+							<a class="wechat_again"></a>
+							<p class="bottom_line_two_again"></p>
+						</div>
+					</div>
+				</div>					
+				
+			
+			</div>
+		<!-- 清除浮动带来的影响	 -->
+		<div class="clear"></div>
+		<!-- </div>	 -->
+		</div>
+		<!-- 主体区域结束-->
+
+		<!-- 底部板块 -->
+		<div class="footer">
+			<span>Copyright 2008-2020 vip.com，All Rights Reserved ICP证：粤 B2-20080329</span>
+		</div>
+		<script src="./js/Login.js"></script>
+	</body>
+</html>
